@@ -218,7 +218,6 @@ def endgame():
     def restart():
         result.destroy()
         restart_button.destroy()
-        choicePc.destroy()
         lineDraw['bg'] = white
         lineUser['bg'] = white
         linePc['bg'] = white
