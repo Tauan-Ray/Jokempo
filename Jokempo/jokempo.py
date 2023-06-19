@@ -18,13 +18,13 @@ app.config(bg=white)
 app.resizable(False, False)
 
 # Preparando icones
-iconRock = Image.open('images/rock.png')
+iconRock = Image.open('Jokempo/images/rock.png')
 iconRock = ImageTk.PhotoImage(iconRock)
 
-iconPaper = Image.open('images/paper.png')
+iconPaper = Image.open('Jokempo/images/paper.png')
 iconPaper = ImageTk.PhotoImage(iconPaper)
 
-iconScissor = Image.open('images/scissor.png')
+iconScissor = Image.open('Jokempo/images/scissor.png')
 iconScissor = ImageTk.PhotoImage(iconScissor)
 
 # Criando frames
